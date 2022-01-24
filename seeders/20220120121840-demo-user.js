@@ -11,6 +11,24 @@ module.exports = {
       rol:'user',
       createdAt: new Date(),
       updatedAt: new Date()
+    },
+
+    {
+      name: 'Mario',
+      email: 'mario@example.com',
+      password:'123456',
+      rol:'user',
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      name: 'Jesus',
+      email: 'jesus@example.com',
+      password:'123456',
+      rol:'user',
+      createdAt: new Date(),
+      updatedAt: new Date()
     }
   ])
 

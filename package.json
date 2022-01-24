@@ -1,17 +1,31 @@
 {
   "name": "sequelize",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.13.0"
+    "sequelize": "^6.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanpuebla10/clasesequelize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivanpuebla10/clasesequelize/issues"
+  },
+  "homepage": "https://github.com/ivanpuebla10/clasesequelize#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
